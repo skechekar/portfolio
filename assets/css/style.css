@@ -3,8 +3,9 @@
 }
 
 :root {
-  --header: #C4778A;
   --border: pink;
+  --headings: #C4778A;
+  --text: #C4778A;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: rgb(224, 195, 200);
 }
 
 h1,
@@ -23,10 +25,6 @@ h6 {
   margin: 0;
 }
 
-p {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -35,7 +33,7 @@ a {
 /* header and nav section */
 
 header {
-  background-color: var(--header);
+  background-color: #C4778A;
   height: 110px;
 }
 
@@ -47,7 +45,7 @@ header h1 span {
   margin-left: 20px;
   border: var(--border) solid 5px;
   border-radius: 10px;
-  color: #C4778A;
+  color: var(--headings);
 }
 
 ul {
@@ -83,4 +81,49 @@ nav ul li {
   padding: 10px;
   border: var(--border) solid 5px;
   border-radius: 15px;
+  color: var(--headings);
+}
+
+/* main section */
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-section h2 {
+  display: inline-block;
+  font-size: 50px;
+  margin-left: 140px;
+  color: var(--headings);
+  border-right: 5px var(--headings) solid;
+  padding: 20px;
+  float: left;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 1.0;
+}
+
+.page-section p {
+  color: var(--text);
+  margin: 20px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding-right: 150px;
+}
+
+#wordone::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#about h2 {
+  position: relative;
+  padding: 40.8px;
+}
+
+#work h2 {
+  position: relative;
+  padding: 50px;
 }
