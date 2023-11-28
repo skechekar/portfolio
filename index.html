@@ -5,39 +5,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>Sarah Kechekar — Web Developer</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1><span>Sarah Kechekar</span></h1>
     <nav>
+      <ul>
+        <li class="underline"><a href="#">About Me</a></li>
+        <li class="underline"><a href="#">Work</a></li>
+        <li class="underline"><a href="#">Contact Me</a></li>
+        <li class="underline"><a href="#">Resume</a></li>
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+    <div class="subtitle">
+      <h2><span>Web Developer</span></h2>
     </div>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <h2><span id="wordOne">About</span> <span id="wordTwo"> Me</span></h2>
+        <p id="about-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2>Work</h2>
+      <section id="workGrid">
+        <div id="projectOne" class="workGridArea">
+          <div class="heading"><span>Project One</span></div>
+        </div>
+        <div id="projectTwo" class="workGridArea">
+          <div class="heading"><span>Project Two</span></div>
+        </div>
+        <div id="projectThree" class="workGridArea">
+          <div class="heading"><span>Project Three</span></div>
+        </div>
+        <div id="projectFour" class="workGridArea">
+          <div class="heading"><span>Project Four</span></div>
+        </div>
+        <div id="projectFive" class="workGridArea">
+          <div class="heading"><span>Project Five</span></div>
+        </div>
+      </section>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="page-section" id="contact">
+      <h2><span id="wordOne">Contact</span><span id="wordTwo"> Me</span></h2>
+      <ul>
+        <li class="underline"><a href="tel:+447497351977">074.935.1977</a></li>
+        <li class="underline"><a href="mailto:skechekar@icloud.com">skechekar@icloud.com</a></li>
+        <li class="underline"><a href="https://github.com/skechekar">GitHub</a></li>
+      </ul>
     </section>
   </main>
 </body>
