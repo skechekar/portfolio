@@ -113,7 +113,7 @@ nav ul li {
   padding-right: 150px;
 }
 
-#wordone::after {
+#wordOne::after {
   content: "\a";
   white-space: pre;
 }
@@ -127,3 +127,5 @@ nav ul li {
   position: relative;
   padding: 50px;
 }
+
+/* work section */ 
