@@ -5,7 +5,6 @@ I created this portfolio webpage using HTML and CSS in order to showcase my proj
 
 ![gif-of-the-site](./assets/images/siteexample.gif)
 
-
 ## Usage
 The deployed portfolio can be accessed via [here](https://skechekar.github.io/portfolio/) hosted on GitHub Pages. Links in the navigation bar will lead you to the correct section when clicked. Hovering over the project images will make the image fade in and trigger the glowing border. 
 
