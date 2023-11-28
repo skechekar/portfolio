@@ -31,7 +31,7 @@ a {
 }
 
 .underline {
-  border-bottom: 3px rgb(208, 147, 157) solid;
+  border-bottom: 3px rgb(208, 104, 120) solid;
 }
 
 /* header and nav section */
@@ -111,6 +111,8 @@ nav ul li {
   top: 20px;
   left: 20px;
   padding-right: 150px;
+  font-size: 20px;
+  padding-top: 22px;
 }
 
 #wordOne::after {
@@ -145,26 +147,62 @@ nav ul li {
 #projectOne {
   grid-area: projectOne;
   background-image: url(../images/02-portfolio-1.jpg);
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+#projectOne:hover {
+  box-shadow: inset 0px 0px 20px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+  opacity: 1; 
 }
 
 #projectTwo {
   grid-area: projectTwo;
   background-image: url(../images/02-portfolio-2.jpg);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+#projectTwo:hover {
+  box-shadow: inset 0px 0px 20px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+  opacity: 1; 
 }
 
 #projectThree {
   grid-area: projectThree;
   background-image: url(../images/02-portfolio-3.jpg);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+#projectThree:hover {
+  box-shadow: inset 0px 0px 20px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+  opacity: 1; 
 }
 
 #projectFour {
   grid-area: projectFour;
   background-image: url(../images/02-portfolio-3.jpg);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+#projectFour:hover {
+  box-shadow: inset 0px 0px 20px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+  opacity: 1; 
 }
 
 #projectFive {
   grid-area: projectFive;
   background-image: url(../images/02-portfolio-4.jpg);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+#projectFive:hover {
+  box-shadow: inset 0px 0px 20px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+  opacity: 1; 
 }
 
 .workGridArea {
