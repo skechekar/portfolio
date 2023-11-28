@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --header: #C4778A;
+  --border: pink;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -20,4 +25,62 @@ h6 {
 
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* header and nav section */
+
+header {
+  background-color: var(--header);
+  height: 110px;
+}
+
+header h1 span {
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+  border: var(--border) solid 5px;
+  border-radius: 10px;
+  color: #C4778A;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+  padding-right: 60px;
+  margin-top: -5px;
+}
+
+nav ul li {
+  display: inline;
+  font-size: large;
+  margin-right: 10px;
+}
+
+.underline {
+  border-bottom: 3px pink solid;
+}
+
+/* hero section */
+
+.hero-banner {
+  background-image: url(../images/heroimage.jpg); height: 200px; 
+  position: relative;
+  top: -16px;
+}
+
+.subtitle h2 span {
+  position: relative;
+  top: 140px;
+  left: 1250px; 
+  background-color: white;
+  padding: 10px;
+  border: var(--border) solid 5px;
+  border-radius: 15px;
 }
